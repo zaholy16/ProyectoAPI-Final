@@ -1,4 +1,3 @@
-const artista = require("./vecArtista");
 
 function Artista(nombre,edad,sexo,banda,genero)
 {
