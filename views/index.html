@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <title>Proyecto POO</title>
+  </head>
+  <body background="fondoo.png">
+    <h1 class="m-10 text-center">Listado de artistas</h1>
+    <div class="container m-10 p-3">
+        <div class="form-group">
+          <label for="nombre"><b>NOMBRE:</b></label>
+          <input type="text" class="form-control" id="nombre" placeholder="Nombre del artista">
+        </div>
+        <div class="form-group">
+          <label for="edad"><b>EDAD:</b></label>
+          <input type="number" class="form-control" id="edad" placeholder="Edad del artista">
+        </div>
+        <div class="form-group">
+          <label for="sexo"><b>SEXO:</b></label>
+          <input type="text" class="form-control" id="sexo" placeholder="Edad del artista">
+        </div>
+        <div class="form-group">
+          <label for="banda"><b>BANDA:</b></label>
+          <input type="text" class="form-control" id="banda" placeholder="Banda del artista">
+        </div>
+        <div class="form-group">
+          <label for="genero"><b>GENERO MUSICAL:</b></label>
+          <input type="text" class="form-control" id="genero" placeholder="Genero musical del artista">
+        </div>
+      <div class="form-group container text-center">
+        <button id="btnRecuperar" class="btn btn-outline-primary btn-lg btn-block" type="button">Recupera</button>
+        <button id="btnAgregar" class="btn btn-outline-success btn-lg btn-block" type="button">Agregar</button>
+        <button id="btnModificar" class="btn btn-outline-dark btn-lg btn-block" type="button">Modificar</button>
+        <button id="btnEliminar" class="btn btn-outline-danger btn-lg btn-block" type="button">Eliminar</button>
+      </div>
+      <div id="details" class="text-center"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
